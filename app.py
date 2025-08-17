@@ -2,6 +2,7 @@ from fastapi import FastAPI, BackgroundTasks
 from pydantic import BaseModel
 from src.techai.crew import Techai
 
+
 class InputQuery(BaseModel):
     query: str
 
